@@ -5,6 +5,7 @@
 
 ###
 Responsavel pela tranformação em anos de idade:
+###
 // Função para formatar data
 function formatarData(dataString) {
     const data = new Date(dataString);

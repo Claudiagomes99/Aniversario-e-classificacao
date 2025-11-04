@@ -31,8 +31,10 @@ Responsavel pela transformação em anos de idade:
                 resultado.className = 'resultado show impar';
                 textoResultado.textContent = 'É ÍMPAR!';
 
-
-<img width="809" height="605" alt="image" src="https://github.com/user-attachments/assets/040411c2-7b78-4214-9301-de087a3df87b" />
-
                 explicacao.textContent = `${numero} não é divisível por 2 de forma exata. A divisão resulta em ${(numero / 2).toFixed(1)}, por isso é um número ímpar!`;
             }
+
+
+
+
+ <img width="809" height="605" alt="image" src="https://github.com/user-attachments/assets/040411c2-7b78-4214-9301-de087a3df87b" />

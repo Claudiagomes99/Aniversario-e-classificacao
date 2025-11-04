@@ -1,16 +1,38 @@
 # Aniversario-e-classificacao
-<img width="576" height="494" alt="image" src="https://github.com/user-attachments/assets/a1fdefad-adb3-4c00-8fff-09622dc8dbc3" />
-<img width="889" height="568" alt="image" src="https://github.com/user-attachments/assets/aaad3849-05c4-4392-9104-0f4ae65ff936" />
+Responsavel pela transformação em anos de idade:
 
 
-###
-Responsavel pela tranformação em anos de idade:
-###
-// Função para formatar data
-function formatarData(dataString) {
-    const data = new Date(dataString);
-    const dia = String(data.getDate() + 1).padStart(2, '0');
-    const mes = String(data.getMonth() + 1).padStart(2, '0');
-    const ano = data.getFullYear();
-    return `${dia}/${mes}/${ano}`;
-}
+ // Calcular idade
+ const idade = anoAtual - ano;
+
+ <img width="737" height="560" alt="image" src="https://github.com/user-attachments/assets/276bed44-5fc5-4444-ae5d-3331767b4096" />
+
+
+
+ Responsavel por ordenar impar ou par:
+
+
+
+  // Verificar se é par ou ímpar
+            numeroValor.textContent = numero;
+
+            if (numero % 2 === 0) {
+                // É PAR
+                resultado.className = 'resultado show par';
+                textoResultado.textContent = 'É PAR!';
+                
+                if (numero === 0) {
+                    explicacao.textContent = 'Zero é considerado um número par, pois é divisível por 2 (0 ÷ 2 = 0).';
+                } else {
+                    explicacao.textContent = `${numero} é divisível por 2, resultando em ${numero / 2}. Por isso é um número par!`;
+                }
+            } else {
+                // É ÍMPAR
+                resultado.className = 'resultado show impar';
+                textoResultado.textContent = 'É ÍMPAR!';
+
+
+<img width="809" height="605" alt="image" src="https://github.com/user-attachments/assets/040411c2-7b78-4214-9301-de087a3df87b" />
+
+                explicacao.textContent = `${numero} não é divisível por 2 de forma exata. A divisão resulta em ${(numero / 2).toFixed(1)}, por isso é um número ímpar!`;
+            }

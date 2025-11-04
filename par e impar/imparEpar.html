@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Par e impar</title>
+    <link rel="stylesheet" href="../par e impar/imparEpar.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎲 Par ou Ímpar?</h1>
+        <p class="subtitle">Descubra se um número é par ou ímpar!</p>
+
+        <div class="input-group">
+            <label for="numero">🔢 Digite um número:</label>
+            <input type="number" id="numero" placeholder="Ex: 42">
+        </div>
+
+        <button class="btn" onclick="verificarParImpar()">🔍 Verificar</button>
+
+        <div id="resultado" class="resultado">
+            <div class="icon" id="icon">🎯</div>
+            <div class="resultado-numero" id="numeroValor">--</div>
+            <div class="resultado-texto" id="textoResultado">É PAR!</div>
+            <div class="resultado-explicacao" id="explicacao"></div>
+        </div>
+    </div>
+    <script src="../par e impar/imparEpar.js"></script>
+</body>
+</html>

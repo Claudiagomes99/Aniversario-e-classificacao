@@ -1,0 +1,119 @@
+  * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 10px 30px rgba(219, 9, 9, 0.555);
+            max-width: 450px;
+            width: 100%;
+        }
+
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 28px;
+        }
+
+        .form-group {
+            margin-bottom: 25px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            color: #34495e;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        input {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: border-color 0.3s;
+        }
+
+        input:focus {
+            outline: none;
+            border-color: #b84ffe;
+        }
+
+        button {
+            width: 100%;
+            padding: 15px;
+            background: #fe4f75;
+            color: white;
+            border: none;
+            border-radius: 15px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        button:hover {
+            background: #ff7423;
+
+        }
+
+        .resultado {
+            margin-top: 30px;
+            padding: 25px;
+            background: #ecf0f1;
+            border-radius: 10px;
+            text-align: center;
+            display: none;
+        }
+
+        .resultado.show {
+            display: block;
+        }
+
+        .resultado h2 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+
+        .idade {
+            font-size: 48px;
+            color: #4facfe;
+            font-weight: bold;
+            margin: 15px 0;
+        }
+
+        .mensagem {
+            color: #7f8c8d;
+            font-size: 16px;
+        }
+
+        .erro {
+            background: #e74c3c;
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+            display: none;
+        }
+
+        .erro.show {
+            display: block;
+        }
+
+      
